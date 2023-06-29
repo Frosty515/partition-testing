@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/*"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/x86_64-pc-linux-gnu-g++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-m64",
+                "-std=c++20",
+                "-Wall",
+                "-Wextra",
+                "-Isrc",
+                "-O2",
+                "-fno-exceptions",
+                "-g"
+            ]
+        }
+    ],
+    "version": 4
+}
